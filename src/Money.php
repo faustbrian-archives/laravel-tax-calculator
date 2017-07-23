@@ -11,12 +11,12 @@
 
 namespace BrianFaust\TaxCalculator;
 
-use Money\Currencies\ISOCurrencies;
 use Money\Currency;
-use Money\Formatter\DecimalMoneyFormatter;
-use Money\Formatter\IntlMoneyFormatter;
-use Money\Money as MoneyPhp;
 use NumberFormatter;
+use Money\Money as MoneyPhp;
+use Money\Currencies\ISOCurrencies;
+use Money\Formatter\IntlMoneyFormatter;
+use Money\Formatter\DecimalMoneyFormatter;
 
 class Money
 {
