@@ -12,9 +12,9 @@
 namespace BrianFaust\Tests\TaxCalculator\tests\Facades;
 
 use BrianFaust\TaxCalculator\Calculator;
+use GrahamCampbell\TestBenchCore\FacadeTrait;
 use BrianFaust\TaxCalculator\Facades\TaxCalculator;
 use BrianFaust\Tests\TaxCalculator\AbstractTestCase;
-use GrahamCampbell\TestBenchCore\FacadeTrait;
 
 class TaxCalculatorTest extends AbstractTestCase
 {
