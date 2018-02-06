@@ -13,8 +13,6 @@ declare(strict_types=1);
 
 namespace BrianFaust\Tests\TaxCalculator;
 
-use BrianFaust\TaxCalculator\TaxCalculatorServiceProvider;
-
 class ServiceProviderTest extends AbstractTestCase
 {
     use ServiceProviderTrait;
